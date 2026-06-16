@@ -5,6 +5,7 @@ from textual.containers import Horizontal
 from textual.widgets import DataTable, Static, Button, Header, Footer
 
 from Network_scanner import PacketSaver
+from scapy.all import sniff, IP
 
 class SnifferTUI(App):
 
